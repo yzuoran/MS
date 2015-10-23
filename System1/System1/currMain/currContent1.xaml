@@ -5,24 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:System1.currMain"
              mc:Ignorable="d">
-    <WrapPanel Orientation="Horizontal">
-        <Button>
-            <StackPanel Style="{StaticResource MainStack}">
-                <Image Source="../icon/66.png" Style="{StaticResource MainImg}"/>
-                <Label Style="{StaticResource MainLabel}">内容</Label>
-            </StackPanel>
-        </Button>
-        <Button>
-            <StackPanel Style="{StaticResource MainStack}">
-                <Image Source="../icon/66.png" Style="{StaticResource MainImg}"/>
-                <Label Style="{StaticResource MainLabel}">内容</Label>
-            </StackPanel>
-        </Button>
-        <Button>
-            <StackPanel Style="{StaticResource MainStack}">
-                <Image Source="../icon/66.png" Style="{StaticResource MainImg}"/>
-                <Label Style="{StaticResource MainLabel}">内容</Label>
-            </StackPanel>
-        </Button>
-    </WrapPanel>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <ListView Margin="5" Name="dataGridView1">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Width="80" Header="表头1"/>
+                        <GridViewColumn Width="150" Header="表头2"/>
+                        <GridViewColumn Width="150" Header="表头3"/>
+                        <GridViewColumn Width="150" Header="表头4"/>
+                        <GridViewColumn Width="150" Header="表头5"/>
+                        <GridViewColumn Width="150" Header="表头6"/>
+                        <GridViewColumn Width="150" Header="表头7"/>
+                        <GridViewColumn Width="150" Header="表头8"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </ScrollViewer>
 </UserControl>

@@ -26,3 +26,6 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\System1\System1\obj\Debug\cu
 C:\Users\user\Documents\Visual Studio 2015\Projects\System1\System1\obj\Debug\currTab\currTab2.baml
 C:\Users\user\documents\visual studio 2015\Projects\System1\System1\obj\Debug\currTab\currTab0.g.cs
 C:\Users\user\documents\visual studio 2015\Projects\System1\System1\obj\Debug\currTab\currTab0.baml
+F:\github\MS\System1\System1\bin\Debug\System1.exe.config
+F:\github\MS\System1\System1\obj\Debug\System1.exe
+F:\github\MS\System1\System1\obj\Debug\System1.pdb
