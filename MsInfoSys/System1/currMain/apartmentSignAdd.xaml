@@ -1,0 +1,109 @@
+﻿<Window x:Class="System1.currMain.apartmentSignAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:System1.currMain"
+        mc:Ignorable="d"
+        Title="添加早点到信息" Height="300" Width="670" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" BorderThickness="0,0,0,1" BorderBrush="#F2F3F4">
+            <StackPanel Orientation="Horizontal" Margin="14,0,0,0">
+                <Label Style="{StaticResource apartmentSignLabel}">学号:</Label>
+                <TextBox Style="{StaticResource apartmentSignCondition}"></TextBox>
+                <Label Style="{StaticResource apartmentSignLabel}">年级:</Label>
+                <ComboBox  SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>2015级</ComboBoxItem>
+                    <ComboBoxItem>2014级</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">专业:</Label>
+                <ComboBox SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>信管</ComboBoxItem>
+                    <ComboBoxItem>管科</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">日期:</Label>
+                <DatePicker  Style="{StaticResource apartmentSignCondition}"></DatePicker>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" BorderThickness="0,0,0,1" BorderBrush="#F2F3F4">
+            <StackPanel Orientation="Horizontal" Margin="14,0,0,0">
+                <Label Style="{StaticResource apartmentSignLabel}">学号:</Label>
+                <TextBox Style="{StaticResource apartmentSignCondition}"></TextBox>
+                <Label Style="{StaticResource apartmentSignLabel}">年级:</Label>
+                <ComboBox  SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>2015级</ComboBoxItem>
+                    <ComboBoxItem>2014级</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">专业:</Label>
+                <ComboBox SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>信管</ComboBoxItem>
+                    <ComboBoxItem>管科</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">日期:</Label>
+                <DatePicker  Style="{StaticResource apartmentSignCondition}"></DatePicker>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="2" BorderThickness="0,0,0,1" BorderBrush="#F2F3F4">
+            <StackPanel Orientation="Horizontal" Margin="14,0,0,0">
+                <Label Style="{StaticResource apartmentSignLabel}">学号:</Label>
+                <TextBox Style="{StaticResource apartmentSignCondition}"></TextBox>
+                <Label Style="{StaticResource apartmentSignLabel}">年级:</Label>
+                <ComboBox  SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>2015级</ComboBoxItem>
+                    <ComboBoxItem>2014级</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">专业:</Label>
+                <ComboBox SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>信管</ComboBoxItem>
+                    <ComboBoxItem>管科</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">日期:</Label>
+                <DatePicker  Style="{StaticResource apartmentSignCondition}"></DatePicker>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="3" BorderThickness="0,0,0,1" BorderBrush="#F2F3F4">
+            <StackPanel Orientation="Horizontal" Margin="14,0,0,0">
+                <Label Style="{StaticResource apartmentSignLabel}">学号:</Label>
+                <TextBox Style="{StaticResource apartmentSignCondition}"></TextBox>
+                <Label Style="{StaticResource apartmentSignLabel}">年级:</Label>
+                <ComboBox  SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>2015级</ComboBoxItem>
+                    <ComboBoxItem>2014级</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">专业:</Label>
+                <ComboBox SelectedIndex="0" Style="{StaticResource apartmentSignCondition}">
+                    <ComboBoxItem>全部</ComboBoxItem>
+                    <ComboBoxItem>信管</ComboBoxItem>
+                    <ComboBoxItem>管科</ComboBoxItem>
+                </ComboBox>
+                <Label Style="{StaticResource apartmentSignLabel}">日期:</Label>
+                <DatePicker  Style="{StaticResource apartmentSignCondition}"></DatePicker>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="4" BorderThickness="0,1,0,0" BorderBrush="#F2F3F4">
+            <StackPanel Orientation="Horizontal" Margin="14,0,0,0">
+                <Label Style="{StaticResource apartmentSignLabel}">一次可添加1至4行数据(日期可不选，默认为当天):</Label>
+                <Border Style="{StaticResource apartmentSignOperate}">
+                    <Button Name="doSignAdd" FontSize="14" Click="doSignAdd_Click">确认添加</Button>
+                </Border>
+                <Border Style="{StaticResource apartmentSignOperate}">
+                    <Button Name="doCancel" FontSize="14" Click="doCancel_Click">取消</Button>
+                </Border>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

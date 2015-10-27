@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.0.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\database\database\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -57,7 +61,28 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="currMain\currContent1.xaml">
+    <Compile Include="currMain\apartmentSign.xaml.cs">
+      <DependentUpon>apartmentSign.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="currMain\apartmentSignAdd.xaml.cs">
+      <DependentUpon>apartmentSignAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="currMain\apartmentSignEdit.xaml.cs">
+      <DependentUpon>apartmentSignEdit.xaml</DependentUpon>
+    </Compile>
+    <Page Include="currMain\apartmentSign.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="currMain\apartmentSignAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="currMain\apartmentSignEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="currMain\undergraduateInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -69,15 +94,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="currTab\currTab0.xaml">
+    <Page Include="currTab\apartment.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="currTab\currTab1.xaml">
+    <Page Include="currTab\index.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="currTab\currTab2.xaml">
+    <Page Include="currTab\undergraduate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="currTab\graduate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -93,8 +122,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="currMain\currContent1.xaml.cs">
-      <DependentUpon>currContent1.xaml</DependentUpon>
+    <Compile Include="currMain\undergraduateInfo.xaml.cs">
+      <DependentUpon>undergraduateInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="currMain\currContent1_2.xaml.cs">
       <DependentUpon>currContent1_2.xaml</DependentUpon>
@@ -102,14 +131,17 @@
     <Compile Include="currMain\currContent2.xaml.cs">
       <DependentUpon>currContent2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="currTab\currTab0.xaml.cs">
-      <DependentUpon>currTab0.xaml</DependentUpon>
+    <Compile Include="currTab\apartment.xaml.cs">
+      <DependentUpon>apartment.xaml</DependentUpon>
     </Compile>
-    <Compile Include="currTab\currTab1.xaml.cs">
-      <DependentUpon>currTab1.xaml</DependentUpon>
+    <Compile Include="currTab\index.xaml.cs">
+      <DependentUpon>index.xaml</DependentUpon>
     </Compile>
-    <Compile Include="currTab\currTab2.xaml.cs">
-      <DependentUpon>currTab2.xaml</DependentUpon>
+    <Compile Include="currTab\undergraduate.xaml.cs">
+      <DependentUpon>undergraduate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="currTab\graduate.xaml.cs">
+      <DependentUpon>graduate.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -142,31 +174,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\logo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\22.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\33.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\20.png" />
-    <Resource Include="icon\21.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon\66.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon\index.png" />
@@ -215,6 +222,57 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon\indexChange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\index\indeximg1.png" />
+    <Resource Include="icon\index\indeximg2.png" />
+    <Resource Include="icon\index\indeximg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\index\indeximg10.png" />
+    <Resource Include="icon\index\indeximg11.png" />
+    <Resource Include="icon\index\indeximg12.png" />
+    <Resource Include="icon\index\indeximg13.png" />
+    <Resource Include="icon\index\indeximg4.png" />
+    <Resource Include="icon\index\indeximg5.png" />
+    <Resource Include="icon\index\indeximg6.png" />
+    <Resource Include="icon\index\indeximg7.png" />
+    <Resource Include="icon\index\indeximg8.png" />
+    <Resource Include="icon\index\indeximg9.png" />
+    <Resource Include="icon\index\note.png" />
+    <Resource Include="icon\index\noteadd.png" />
+    <Resource Include="icon\index\noteshow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\index\indexbottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\apartmentCheck.png" />
+    <Resource Include="icon\apartmentSanitary.png" />
+    <Resource Include="icon\apartmentSign.png" />
+    <Resource Include="icon\decision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\graduateDevelopment.png" />
+    <Resource Include="icon\graduateInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\quality.png" />
+    <Resource Include="icon\undergraduateGrade.png" />
+    <Resource Include="icon\undergraduateInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\undergraduateReward.png" />
+    <Resource Include="icon\undergraduateTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\topleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\decisionChange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\qualityChange.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

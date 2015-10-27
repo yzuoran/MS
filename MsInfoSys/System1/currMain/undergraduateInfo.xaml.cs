@@ -13,16 +13,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace System1.currTab
+namespace System1.currMain
 {
     /// <summary>
-    /// currTab0.xaml 的交互逻辑
+    /// undergraduateInfo.xaml 的交互逻辑
     /// </summary>
-    public partial class currTab0 : UserControl
+    public partial class undergraduateInfo : UserControl
     {
-        public currTab0()
+        public undergraduateInfo()
         {
             InitializeComponent();
         }
+        
     }
 }

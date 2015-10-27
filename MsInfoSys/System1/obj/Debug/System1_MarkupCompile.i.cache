@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\github\MS\System1\System1\obj\Debug\
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\
 System1
 none
 false
 DEBUG;TRACE
-F:\github\MS\System1\System1\App.xaml
-8-977714162
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\App.xaml
+12-1889129344
 
-15-869452253
-15767094614
-currMain\currContent1.xaml;currMain\currContent1_2.xaml;currMain\currContent2.xaml;currTab\currTab0.xaml;currTab\currTab1.xaml;currTab\currTab2.xaml;Dictionary1.xaml;MainWindow.xaml;
+192105228595
+16834559806
+currMain\apartmentSign.xaml;currMain\apartmentSignAdd.xaml;currMain\apartmentSignEdit.xaml;currMain\undergraduateInfo.xaml;currMain\currContent1_2.xaml;currMain\currContent2.xaml;currTab\apartment.xaml;currTab\index.xaml;currTab\undergraduate.xaml;currTab\graduate.xaml;Dictionary1.xaml;MainWindow.xaml;
 
 True
 

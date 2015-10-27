@@ -13,16 +13,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace System1.currMain
+namespace System1.currTab
 {
     /// <summary>
-    /// currContent1.xaml 的交互逻辑
+    /// undergraduate.xaml 的交互逻辑
     /// </summary>
-    public partial class currContent1 : UserControl
+    public partial class undergraduate : UserControl
     {
-        public currContent1()
+        public undergraduate()
         {
             InitializeComponent();
         }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            currMain.Content = new currMain.undergraduateInfo();
+        }
+        
     }
 }
