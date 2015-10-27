@@ -16,18 +16,23 @@ using System.Windows.Shapes;
 namespace System1.currTab
 {
     /// <summary>
-    /// currTab2.xaml 的交互逻辑
+    /// currTab0.xaml 的交互逻辑
     /// </summary>
-    public partial class currTab2 : UserControl
+    public partial class index : UserControl
     {
-        public currTab2()
+        public index()
         {
             InitializeComponent();
         }
 
-        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        private void indeximg1_MouseEnter(object sender, MouseEventArgs e)
         {
-            currMain.Content = new currMain.currContent2();
+            indeximg1.BorderBrush = new SolidColorBrush(Color.FromRgb(43, 150, 221));
+        }
+
+        private void indeximg1_MouseLeave(object sender, MouseEventArgs e)
+        {
+            indeximg1.BorderBrush = new SolidColorBrush(Color.FromRgb(255, 255, 255));
         }
     }
 }

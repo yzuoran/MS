@@ -1,0 +1,67 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\bin\Debug\System1.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\bin\Debug\System1.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\bin\Debug\System1.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\undergraduateInfo.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\currContent1_2.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\currContent2.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\WinStudent.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currTab\index.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currTab\undergraduate.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currTab\graduate.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\App.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\System1_MarkupCompile.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\System1_MarkupCompile.lref
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\App.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\undergraduateInfo.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\currContent1_2.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\currContent2.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currMain\WinStudent.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currTab\index.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currTab\undergraduate.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\currTab\graduate.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\Dictionary1.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\System1.g.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\System1.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\MsInfoSys.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\System1.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys\System1\obj\Debug\System1.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\bin\Debug\System1.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\System1.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\System1.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\bin\Debug\System1.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\bin\Debug\System1.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\MsInfoSys.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\undergraduateInfo.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\currContent1_2.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\currContent2.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\index.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\undergraduate.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\graduate.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\App.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\System1_MarkupCompile.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\System1_MarkupCompile.lref
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\App.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\undergraduateInfo.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\currContent1_2.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\currContent2.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\index.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\undergraduate.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\graduate.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\Dictionary1.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\System1.g.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\System1.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\MsInfoSys.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\apartment.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currTab\apartment.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\apartmentSign.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\apartmentSign.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\apartmentSignAdd.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\apartmentSignAdd.baml
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\apartmentSignEdit.g.cs
+C:\Users\user\Documents\Visual Studio 2015\Projects\MsInfoSys - 备份2\System1\obj\Debug\currMain\apartmentSignEdit.baml

@@ -122,7 +122,7 @@ namespace System1
             indexStack.Background = new SolidColorBrush(Color.FromRgb(69, 76, 86));
             BitmapImage image = new BitmapImage(new Uri("\\icon\\indexChange.png", UriKind.Relative));
             indexImg.Source = image;
-            currTab.Content = new currTab.currTab0();
+            currTab.Content = new currTab.index();
         }
  
         
@@ -154,7 +154,7 @@ namespace System1
             documentImg.Source = image4;
 
             index.DataContext = "2";
-            currTab.Content = new currTab.currTab0();
+            currTab.Content = new currTab.index();
         }
         private void index_MouseEnter(object sender, MouseEventArgs e)
         {
@@ -214,7 +214,7 @@ namespace System1
             documentImg.Source = image4;
 
             undergraduate.DataContext = "2";
-            currTab.Content = new currTab.currTab1();
+            currTab.Content = new currTab.undergraduate();
         }
 
         private void undergraduate_MouseEnter(object sender, MouseEventArgs e)
@@ -259,7 +259,7 @@ namespace System1
             documentImg.Source = image4;
 
             graduate.DataContext = "2";
-            currTab.Content = new currTab.currTab2();
+            currTab.Content = new currTab.graduate();
         }
 
         private void graduate_MouseEnter(object sender, MouseEventArgs e)
@@ -305,6 +305,7 @@ namespace System1
             documentImg.Source = image4;
 
             apartment.DataContext = "2";
+            currTab.Content = new currTab.apartment();
         }
 
         private void apartment_MouseEnter(object sender, MouseEventArgs e)

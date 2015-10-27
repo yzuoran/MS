@@ -16,28 +16,18 @@ using System.Windows.Shapes;
 namespace System1.currTab
 {
     /// <summary>
-    /// currTab1.xaml 的交互逻辑
+    /// graduate.xaml 的交互逻辑
     /// </summary>
-    public partial class currTab1 : UserControl
+    public partial class graduate : UserControl
     {
-        public currTab1()
+        public graduate()
         {
             InitializeComponent();
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            currMain.Content = new currMain.currContent1();
-        }
-
-        private void tab_butn1_Click(object sender, RoutedEventArgs e)
-        {
-            currMain.Content = new currMain.currContent1();
-        }
-
-        private void tab_btn2_Click(object sender, RoutedEventArgs e)
-        {
-            currMain.Content = new currMain.currContent1_2();
+            currMain.Content = new currMain.currContent2();
         }
     }
 }
