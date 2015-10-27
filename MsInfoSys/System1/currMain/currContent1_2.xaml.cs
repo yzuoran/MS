@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace System1.currMain
 {
     /// <summary>
-    /// undergraduateInfo_2.xaml 的交互逻辑
+    /// currContent1_2.xaml 的交互逻辑
     /// </summary>
-    public partial class undergraduateInfo_2 : UserControl
+    public partial class currContent1_2 : UserControl
     {
-        public undergraduateInfo_2()
+        public currContent1_2()
         {
             InitializeComponent();
         }

@@ -18,7 +18,7 @@
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0"  Background="#2E8DCD">
                 <Button HorizontalAlignment="Left" Margin="0,0,0,0">
-                    <Image Source="./icon/topleft.png" Width="36" Height="36"></Image>
+                    <Image Source="./icon/attach.png" Width="36" Height="36"></Image>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Column="1" Name="Topshow" Orientation="Horizontal" FlowDirection="RightToLeft" Background="#2C97DF" MouseLeftButtonDown="Topshow_MouseLeftButtonDown">
@@ -64,43 +64,29 @@
                 </Border>
                 <Border Style="{StaticResource leftBorder}" Name="undergraduateStack">
                     <Button Name="undergraduate"  DataContext="1"  Click="undergraduate_Click" MouseEnter="undergraduate_MouseEnter" MouseLeave="undergraduate_MouseLeave">
-                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}">
+                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}" Margin="0,0,-13,0">
                             <Image Name="undergraduateImg" Source="./icon/undergraduate.png" Style="{StaticResource navImg}"/>
                         </StackPanel>
                     </Button>
                 </Border>
                 <Border Style="{StaticResource leftBorder}" Name="graduateStack">
                     <Button Name="graduate"  DataContext="1"  Click="graduate_Click" MouseEnter="graduate_MouseEnter" MouseLeave="graduate_MouseLeave">
-                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}">
+                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}" Margin="0,0,-6,0">
                             <Image Name="graduateImg" Source="./icon/graduate.png" Style="{StaticResource navImg}"/>
                         </StackPanel>
                     </Button>
                 </Border>
                 <Border Style="{StaticResource leftBorder}" Name="apartmentStack">
                     <Button Name="apartment"  DataContext="1"  Click="apartment_Click" MouseEnter="apartment_MouseEnter" MouseLeave="apartment_MouseLeave">
-                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}">
+                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}" Margin="0,0,-2,0">
                             <Image Name="apartmentImg" Source="./icon/apartment.png" Style="{StaticResource navImg}"/>
                         </StackPanel>
                     </Button>
                 </Border>
                 <Border Style="{StaticResource leftBorder}" Name="documentStack">
                     <Button Name="document"  DataContext="1"  Click="document_Click" MouseEnter="document_MouseEnter" MouseLeave="document_MouseLeave">
-                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}">
+                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}" Margin="0,0,-2,0">
                             <Image Name="documentImg" Source="./icon/document.png" Style="{StaticResource navImg}"/>
-                        </StackPanel>
-                    </Button>
-                </Border>
-                <Border Style="{StaticResource leftBorder}" Name="qualityStack">
-                    <Button Name="quality"  DataContext="1">
-                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}">
-                            <Image Name="qualityImg" Source="./icon/quality.png" Style="{StaticResource navImg}"/>
-                        </StackPanel>
-                    </Button>
-                </Border>
-                <Border Style="{StaticResource leftBorder}" Name="decisionStack">
-                    <Button Name="decision"  DataContext="1">
-                        <StackPanel Orientation="Horizontal"  Style="{StaticResource navBlock}">
-                            <Image Name="decisionImg" Source="./icon/decision.png" Style="{StaticResource navImg}"/>
                         </StackPanel>
                     </Button>
                 </Border>
